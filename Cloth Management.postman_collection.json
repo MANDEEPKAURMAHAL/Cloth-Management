@@ -1,0 +1,303 @@
+{
+	"info": {
+		"_postman_id": "8d17d899-44d0-4b52-93d9-33dacc70b9bd",
+		"name": "Cloth Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "signupUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_mobile_number",
+							"value": "7758095877",
+							"type": "text"
+						},
+						{
+							"key": "user_password",
+							"value": "mandeep",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signupUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signupUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loginUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_mobile_number",
+							"value": "7758095877",
+							"type": "text"
+						},
+						{
+							"key": "user_first_name",
+							"value": "Mandeep",
+							"type": "text"
+						},
+						{
+							"key": "user_last_name",
+							"value": "Mahal",
+							"type": "text"
+						},
+						{
+							"key": "user_email",
+							"value": "mandeepkaur1208@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "user_password",
+							"value": "mandeep",
+							"type": "text"
+						},
+						{
+							"key": "user_address",
+							"value": "nanded city pune",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "7458475875",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signupUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signupUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateUserDetail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_mobile_number",
+							"value": "7758095877",
+							"type": "text"
+						},
+						{
+							"key": "user_first_name",
+							"value": "Mandeep",
+							"type": "text"
+						},
+						{
+							"key": "user_last_name",
+							"value": "Mahal",
+							"type": "text"
+						},
+						{
+							"key": "user_email",
+							"value": "mandeepkaur1208@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "user_password",
+							"value": "mandeep",
+							"type": "text"
+						},
+						{
+							"key": "user_address",
+							"value": "nanded city pune",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "7458475875",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signupUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signupUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addAndUpdateProductWithImage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_mobile_number",
+							"value": "7758095877",
+							"type": "text"
+						},
+						{
+							"key": "user_first_name",
+							"value": "Mandeep",
+							"type": "text"
+						},
+						{
+							"key": "user_last_name",
+							"value": "Mahal",
+							"type": "text"
+						},
+						{
+							"key": "user_email",
+							"value": "mandeepkaur1208@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "user_password",
+							"value": "mandeep",
+							"type": "text"
+						},
+						{
+							"key": "user_address",
+							"value": "nanded city pune",
+							"type": "text"
+						},
+						{
+							"key": "user_id",
+							"value": "7458475875",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/signupUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"signupUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllProducts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NDU4NDc1ODc1LCJqdGkiOiI5NzhkYWNjNi05NGJlLTQ4ZmYtODNiZi1mYTg0OTFlYzRmNDMiLCJpYXQiOjE2MjM3Nzc0MDgsImV4cCI6MTYyMzc4MTAwOH0.tARwAvSLrBjru4MsbGCIv-QdhjqhZ9zidsOfaKuwVrQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/user/getAllProducts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user",
+						"getAllProducts"
+					],
+					"query": [
+						{
+							"key": "user_first_name",
+							"value": "mn",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "user_id",
+							"value": "4754854",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
